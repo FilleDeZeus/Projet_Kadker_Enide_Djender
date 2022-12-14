@@ -22130,7 +22130,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.quotas {
+.about {
   display: flex;
   flex-direction: column;
   flex-wrap: inherit;
@@ -22139,23 +22139,45 @@ textarea.form-control-lg {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: "play";
-  text-align: center;
+  text-align: start;
   width: 100%;
 }
 
-.quota {
-  background-color: hsl(33deg, 82%, 96%);
-  border-radius: 0.4rem;
-  height: 100%;
-  padding: 5%;
+.about h6, .about .h6 {
+  color: hsl(37deg, 81%, 56%);
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-.quota:hover {
-  margin-top: -10px;
-  background: #FFFFFF !important;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+.images::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: hsl(37deg, 81%, 56%);
+  border: 25px solid hsl(33deg, 82%, 96%);
+  border-radius: 0.3rem;
+  z-index: -1;
 }
 
-.quota i {
-  margin-bottom: 20px;
+.about .row {
+  line-height: 2rem;
+}
+
+.about i {
+  color: hsl(37deg, 81%, 56%);
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: hsl(37deg, 81%, 56%);
+  color: white;
+  border-radius: 50rem;
+  padding: 15px 25px 15px 25px;
+}
+
+.about img {
+  border-radius: 0.3rem;
 }

@@ -7,10 +7,15 @@
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'play';
-    text-align: center;
+    text-align: start;
     width: 100%;
 }
-.img-twice::before {
+.about h6{
+    color: $orange;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.images::before {
     position: absolute;
     content: "";
     width: 60%;
@@ -19,6 +24,22 @@
     left: 20%;
     background: $orange;
     border: 25px solid $orangec;
-    border-radius: 6px;
+    border-radius: 0.3rem;
     z-index: -1;
+}
+.about .row{
+    line-height: 2rem;
+}
+.about i{
+    color: $orange;
+    margin-right: 10px;
+}
+.btn{
+    background-color: $orange;
+    color: white;
+    border-radius: 50rem;
+    padding: 15px 25px 15px 25px;
+}
+.about img{
+    border-radius: 0.3rem;
 }
