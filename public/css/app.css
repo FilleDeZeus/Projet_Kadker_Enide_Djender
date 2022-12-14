@@ -22152,7 +22152,6 @@ main {
 
 .about h6, .about .h6 {
   color: hsl(37deg, 81%, 56%);
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
