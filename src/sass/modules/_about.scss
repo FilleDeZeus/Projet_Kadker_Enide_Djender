@@ -1,0 +1,24 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'play';
+    text-align: center;
+    width: 100%;
+}
+.img-twice::before {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    left: 20%;
+    background: $orange;
+    border: 25px solid $orangec;
+    border-radius: 6px;
+    z-index: -1;
+}
