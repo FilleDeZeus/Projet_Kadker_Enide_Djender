@@ -1,0 +1,33 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quotas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'play';
+    text-align: center;
+    width: 80%;
+}
+.quota{
+    background-color: $orangec;
+    border-radius: 0.3rem;
+    height: 100%;
+    padding: 5%;
+}
+.quota:hover {
+    margin-top: -10px;
+    background: #FFFFFF !important;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+.quota i{
+    margin-bottom: 20px;
+}
