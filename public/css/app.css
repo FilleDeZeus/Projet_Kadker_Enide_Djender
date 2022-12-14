@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "kenia";
-  src: url("../../public/fonts/Kenia-Regular.ttf");
-}
-@font-face {
   font-family: "play";
   src: url("../../public/fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "playb";
+  src: url("../../public/fonts/PlayfairDisplay-Bold.ttf");
 }
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
@@ -22136,8 +22136,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0px;
   font-family: "play";
   text-align: start;
   width: 100%;
@@ -22176,8 +22175,18 @@ textarea.form-control-lg {
   color: white;
   border-radius: 50rem;
   padding: 15px 25px 15px 25px;
+  font-family: "playb";
+  margin-top: 20px;
 }
 
 .about img {
   border-radius: 0.3rem;
+}
+
+.about h1, .about .h1 {
+  font-family: "playb";
+}
+
+.abouttext {
+  margin-left: 50px;
 }
