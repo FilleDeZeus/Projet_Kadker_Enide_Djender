@@ -22120,8 +22120,9 @@ main {
   align-items: center;
 }
 
-.about {
-  width: 80%;
+
+.quotas {
+>>>>>>> quotas
   display: flex;
   flex-direction: column;
   flex-wrap: inherit;
@@ -22298,6 +22299,7 @@ main {
 
 .fa-fw {
   text-align: center;
+<<<<<<< HEAD
   width: 1.25em;
 }
 
@@ -35487,7 +35489,7 @@ textarea.form-control-lg {
   padding: 0;
   background-color: transparent;
   -webkit-appearance: none;
-     -moz-appearance: none;
+  -moz-appearance: none;
           appearance: none;
 }
 
@@ -35606,7 +35608,13 @@ textarea.form-control-lg {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
+}
+
+.quota {
+  background-color: hsl(33deg, 82%, 96%);
+  border-radius: 0.3rem;
+>>>>>>> quotas
   height: 100%;
   padding: 1rem 0.75rem;
   overflow: hidden;
