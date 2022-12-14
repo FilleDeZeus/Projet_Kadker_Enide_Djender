@@ -22130,7 +22130,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about {
+  width: 80%;
   display: flex;
   flex-direction: column;
   flex-wrap: inherit;
@@ -22139,7 +22148,6 @@ textarea.form-control-lg {
   padding: 40px 0px;
   font-family: "play";
   text-align: start;
-  width: 100%;
 }
 
 .about h6, .about .h6 {
