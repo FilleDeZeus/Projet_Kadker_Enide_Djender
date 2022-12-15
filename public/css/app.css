@@ -22130,6 +22130,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 .quotas {
   display: flex;
   flex-direction: column;
@@ -22162,23 +22163,54 @@ textarea.form-control-lg {
 }
 
 .about {
+=======
+.service {
+>>>>>>> service
   width: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 0px;
   font-family: "play";
   text-align: start;
 }
 
-.about h6, .about .h6 {
+.service h6, .service .h6 {
   color: hsl(37deg, 81%, 56%);
   margin-bottom: 10px;
 }
 
-.images::before {
+.service .row {
+  line-height: 2rem;
+  position: relative;
+}
+
+.service i {
+  color: white;
+}
+
+.serviceicon {
+  background-color: hsl(37deg, 81%, 56%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
+.service img {
+  border-radius: 0.3rem;
+}
+
+.images2::before {
   position: absolute;
   content: "";
   width: 60%;
@@ -22191,6 +22223,7 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 .about .row {
   line-height: 2rem;
 }
@@ -22330,16 +22363,17 @@ textarea.form-control-lg {
 }
 
 .produits:hover .produit {
+=======
+.images2 {
+  position: relative;
+>>>>>>> service
   height: 100%;
-  opacity: 1;
 }
 
-.produit .btn {
-  color: white;
-  border-radius: 50rem;
-  padding: 15px 25px 15px 25px;
-  font-family: "playb";
-  margin-top: 20px;
+.servicetext {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 main {
@@ -44482,6 +44516,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 .quotas {
   display: flex;
   flex-direction: column;
@@ -44514,23 +44549,54 @@ textarea.form-control-lg {
 }
 
 .about {
+=======
+.service {
+>>>>>>> service
   width: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 0px;
   font-family: "play";
   text-align: start;
 }
 
-.about h6, .about .h6 {
+.service h6, .service .h6 {
   color: hsl(37deg, 81%, 56%);
   margin-bottom: 10px;
 }
 
-.images::before {
+.service .row {
+  line-height: 2rem;
+  position: relative;
+}
+
+.service i {
+  color: white;
+}
+
+.serviceicon {
+  background-color: hsl(37deg, 81%, 56%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
+.service img {
+  border-radius: 0.3rem;
+}
+
+.images2::before {
   position: absolute;
   content: "";
   width: 60%;
@@ -44543,6 +44609,7 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 .about .row {
   line-height: 2rem;
 }
@@ -44682,16 +44749,17 @@ textarea.form-control-lg {
 }
 
 .produits:hover .produit {
+=======
+.images2 {
+  position: relative;
+>>>>>>> service
   height: 100%;
-  opacity: 1;
 }
 
-.produit .btn {
-  color: white;
-  border-radius: 50rem;
-  padding: 15px 25px 15px 25px;
-  font-family: "playb";
-  margin-top: 20px;
+.servicetext {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 main {
