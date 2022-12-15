@@ -22284,11 +22284,6 @@ textarea.form-control-lg {
   line-height: 1.2;
 }
 
-.bakery p {
-  color: hsl(37deg, 81%, 56%);
-  line-height: 1.2;
-}
-
 .tel {
   display: inline-flex;
   text-align: start;
@@ -44871,11 +44866,6 @@ textarea.form-control-lg {
 .entete h1, .entete .h1 {
   color: white;
   font-family: "playb";
-  line-height: 1.2;
-}
-
-.bakery p {
-  color: hsl(37deg, 81%, 56%);
   line-height: 1.2;
 }
 
