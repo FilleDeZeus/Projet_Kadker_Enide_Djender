@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 15px; 
+    margin-bottom: 0px;
 }
 
 .service h1{
@@ -50,4 +51,10 @@
     border: 25px solid $orangec;
     border-radius: 0.3rem;
     z-index: -1;
+}
+
+.servicetext{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
