@@ -22274,7 +22274,7 @@ textarea.form-control-lg {
   color: black;
 }
 
-.row {
+.categorie .row {
   align-items: center;
 }
 
@@ -22348,8 +22348,9 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 40px 0px;
+  margin-top: 5%;
   font-family: "play";
   text-align: start;
 }
@@ -22361,7 +22362,6 @@ textarea.form-control-lg {
 
 .service .row {
   line-height: 2rem;
-  position: relative;
 }
 
 .service i {
@@ -22402,14 +22402,12 @@ textarea.form-control-lg {
 }
 
 .images2 {
-  position: relative !important;
-  height: 100% !important;
+  position: relative;
+  height: 100%;
 }
 
 .servicetext {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
+  margin-right: 50px;
 }
 
 main {
@@ -44696,7 +44694,7 @@ textarea.form-control-lg {
   color: black;
 }
 
-.row {
+.categorie .row {
   align-items: center;
 }
 
@@ -44770,8 +44768,9 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 40px 0px;
+  margin-top: 5%;
   font-family: "play";
   text-align: start;
 }
@@ -44783,7 +44782,6 @@ textarea.form-control-lg {
 
 .service .row {
   line-height: 2rem;
-  position: relative;
 }
 
 .service i {
@@ -44824,14 +44822,12 @@ textarea.form-control-lg {
 }
 
 .images2 {
-  position: relative !important;
-  height: 100% !important;
+  position: relative;
+  height: 100%;
 }
 
 .servicetext {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
+  margin-right: 50px;
 }
 
 main {

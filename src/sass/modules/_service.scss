@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 40px 0px;
+    margin-top: 5%;
     font-family: 'play'; 
     text-align: start;
 }
@@ -14,7 +15,6 @@
 }
 .service .row{
     line-height: 2rem;
-    position: relative;
 }
 
 .service i{
@@ -53,12 +53,14 @@
     z-index: -1;
 }
 .images2{
-    position:relative !important;
-    height: 100% !important;
+    position:relative;
+    height: 100%;
 }
 
 .servicetext{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+    // display: flex;
+    // align-items: center;
+    // margin-bottom: 15px;
+    margin-right: 50px;
+    
 }
