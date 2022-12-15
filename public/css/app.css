@@ -22151,6 +22151,13 @@ main {
   text-align: start;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .entete {
   background: hsl(37deg, 81%, 56%);
   color: white;

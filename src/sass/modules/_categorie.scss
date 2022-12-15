@@ -17,6 +17,13 @@ main{
     font-family: 'play';
     text-align: start;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .entete{
     background: $orange;
     color: white;
