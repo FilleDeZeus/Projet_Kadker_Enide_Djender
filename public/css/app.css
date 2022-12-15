@@ -22198,9 +22198,14 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
-.team h6, .team .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
+.row {
+  align-items: center;
+}
+
+.entete h1, .entete .h1 {
+  color: white;
+  font-family: "playb";
+  line-height: 1.2;
 }
 
 @font-face {
@@ -44402,7 +44407,12 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
-.team h6, .team .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
+.row {
+  align-items: center;
+}
+
+.entete h1, .entete .h1 {
+  color: white;
+  font-family: "playb";
+  line-height: 1.2;
 }

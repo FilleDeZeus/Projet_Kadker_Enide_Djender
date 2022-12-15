@@ -62,7 +62,12 @@
     width: 40px;
     border-radius: 50%;
 }
-.team h6{
-    color: $orange;
-    margin-bottom: 10px;
+.row{
+    align-items: center;
+
+}
+.entete h1{
+    color: white;
+    font-family: 'playb';
+    line-height: 1.2;
 }
