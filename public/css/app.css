@@ -22215,7 +22215,7 @@ main {
   margin-right: 10px;
 }
 
-.btn {
+.about .btn {
   background-color: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 50rem;
@@ -22332,6 +22332,14 @@ main {
 .produits:hover .produit {
   height: 100%;
   opacity: 1;
+}
+
+.produit .btn {
+  color: white;
+  border-radius: 50rem;
+  padding: 15px 25px 15px 25px;
+  font-family: "playb";
+  margin-top: 20px;
 }
 
 @font-face {
@@ -44550,7 +44558,7 @@ main {
   margin-right: 10px;
 }
 
-.btn {
+.about .btn {
   background-color: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 50rem;
@@ -44667,4 +44675,12 @@ main {
 .produits:hover .produit {
   height: 100%;
   opacity: 1;
+}
+
+.produit .btn {
+  color: white;
+  border-radius: 50rem;
+  padding: 15px 25px 15px 25px;
+  font-family: "playb";
+  margin-top: 20px;
 }
