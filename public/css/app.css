@@ -22162,15 +22162,22 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 15px;
 }
 
 .service h1, .service .h1 {
   font-family: "playb";
 }
 
-.service img {
+.about img {
   border-radius: 0.3rem;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
+.abouttext {
+  margin-left: 50px;
 }
 
 main {
@@ -44345,15 +44352,22 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 15px;
 }
 
 .service h1, .service .h1 {
   font-family: "playb";
 }
 
-.service img {
+.about img {
   border-radius: 0.3rem;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
+.abouttext {
+  margin-left: 50px;
 }
 
 main {
