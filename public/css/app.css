@@ -22205,7 +22205,7 @@ textarea.form-control-lg {
   margin-right: 10px;
 }
 
-.btn {
+.about .btn {
   background-color: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 50rem;
@@ -22341,6 +22341,10 @@ textarea.form-control-lg {
   padding: 15px 25px 15px 25px;
   font-family: "playb";
   margin-top: 20px;
+}
+
+.produit i {
+  color: hsl(37deg, 81%, 56%);
 }
 
 .service {
@@ -44790,7 +44794,7 @@ textarea.form-control-lg {
   margin-right: 10px;
 }
 
-.btn {
+.about .btn {
   background-color: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 50rem;
@@ -44926,6 +44930,10 @@ textarea.form-control-lg {
   padding: 15px 25px 15px 25px;
   font-family: "playb";
   margin-top: 20px;
+}
+
+.produit i {
+  color: hsl(37deg, 81%, 56%);
 }
 
 .service {
