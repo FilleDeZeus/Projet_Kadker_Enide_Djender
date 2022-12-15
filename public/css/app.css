@@ -22198,6 +22198,11 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
+.team h6, .team .h6 {
+  color: hsl(37deg, 81%, 56%);
+  margin-bottom: 10px;
+}
+
 @font-face {
   font-family: "play";
   src: url("../../public/fonts/PlayfairDisplay-Regular.ttf");
@@ -44395,4 +44400,9 @@ textarea.form-control-lg {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+}
+
+.team h6, .team .h6 {
+  color: hsl(37deg, 81%, 56%);
+  margin-bottom: 10px;
 }
