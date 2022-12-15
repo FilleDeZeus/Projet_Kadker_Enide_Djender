@@ -22155,6 +22155,11 @@ main {
   margin-bottom: 10px;
 }
 
+.images {
+  position: relative;
+  height: 100%;
+}
+
 .images::before {
   position: absolute;
   content: "";
