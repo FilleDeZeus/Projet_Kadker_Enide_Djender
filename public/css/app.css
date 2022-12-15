@@ -22141,6 +22141,11 @@ textarea.form-control-lg {
   text-align: start;
 }
 
+.service h6, .service .h6 {
+  color: hsl(37deg, 81%, 56%);
+  margin-bottom: 10px;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -44290,6 +44295,11 @@ textarea.form-control-lg {
   padding: 40px 0px;
   font-family: "play";
   text-align: start;
+}
+
+.service h6, .service .h6 {
+  color: hsl(37deg, 81%, 56%);
+  margin-bottom: 10px;
 }
 
 main {
