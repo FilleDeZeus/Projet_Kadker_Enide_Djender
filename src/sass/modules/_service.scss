@@ -12,3 +12,28 @@
     color: $orange;
     margin-bottom: 10px;
 }
+.about .row{
+    line-height: 2rem;
+}
+
+.service i{
+    color: white;
+}
+
+.serviceicon{
+    background-color: $orange;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.service h1{
+    font-family: 'playb';
+}
+
+// .abouttext{
+//     margin-left: 50px;
+// }

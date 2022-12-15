@@ -22146,6 +22146,28 @@ textarea.form-control-lg {
   margin-bottom: 10px;
 }
 
+.about .row {
+  line-height: 2rem;
+}
+
+.service i {
+  color: white;
+}
+
+.serviceicon {
+  background-color: hsl(37deg, 81%, 56%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
 main {
   width: 100%;
   display: flex;
@@ -44300,6 +44322,28 @@ textarea.form-control-lg {
 .service h6, .service .h6 {
   color: hsl(37deg, 81%, 56%);
   margin-bottom: 10px;
+}
+
+.about .row {
+  line-height: 2rem;
+}
+
+.service i {
+  color: white;
+}
+
+.serviceicon {
+  background-color: hsl(37deg, 81%, 56%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
 }
 
 main {
