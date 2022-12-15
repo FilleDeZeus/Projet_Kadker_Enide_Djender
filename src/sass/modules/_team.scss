@@ -66,8 +66,18 @@
     align-items: center;
 
 }
-.entete h1{
-    color: white;
-    font-family: 'playb';
-    line-height: 1.2;
+.our{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% 0%;
+    width: 40%;
+}
+.our h5{
+    color: $orange;
+}
+.our h1{
+    color: black;
 }
