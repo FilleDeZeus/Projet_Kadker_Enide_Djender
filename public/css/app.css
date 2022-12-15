@@ -22146,7 +22146,7 @@ textarea.form-control-lg {
   margin-bottom: 10px;
 }
 
-.about .row {
+.service .row {
   line-height: 2rem;
 }
 
@@ -22162,10 +22162,15 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 15px;
 }
 
 .service h1, .service .h1 {
   font-family: "playb";
+}
+
+.about img {
+  border-radius: 0.3rem;
 }
 
 main {
@@ -44324,7 +44329,7 @@ textarea.form-control-lg {
   margin-bottom: 10px;
 }
 
-.about .row {
+.service .row {
   line-height: 2rem;
 }
 
@@ -44340,10 +44345,15 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 15px;
 }
 
 .service h1, .service .h1 {
   font-family: "playb";
+}
+
+.about img {
+  border-radius: 0.3rem;
 }
 
 main {
