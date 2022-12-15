@@ -22188,6 +22188,11 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
+.images2 {
+  position: relative;
+  height: 100%;
+}
+
 .servicetext {
   display: flex;
   align-items: center;
@@ -44390,6 +44395,11 @@ textarea.form-control-lg {
   border: 25px solid hsl(33deg, 82%, 96%);
   border-radius: 0.3rem;
   z-index: -1;
+}
+
+.images2 {
+  position: relative;
+  height: 100%;
 }
 
 .servicetext {
