@@ -22158,6 +22158,7 @@ textarea.form-control-lg {
 
 .quota i {
   margin-bottom: 20px;
+  color: hsl(37deg, 81%, 56%);
 }
 
 .about {
@@ -22262,8 +22263,14 @@ textarea.form-control-lg {
   color: hsl(37deg, 81%, 56%);
 }
 
-.bakery h1, .bakery .h1 {
+.categories h3, .categories .h3 {
   color: black;
+  font-family: "playb";
+}
+
+.categories h5, .categories .h5 {
+  color: black;
+  font-family: "playb";
 }
 
 .row {
@@ -44503,6 +44510,7 @@ textarea.form-control-lg {
 
 .quota i {
   margin-bottom: 20px;
+  color: hsl(37deg, 81%, 56%);
 }
 
 .about {
@@ -44607,8 +44615,14 @@ textarea.form-control-lg {
   color: hsl(37deg, 81%, 56%);
 }
 
-.bakery h1, .bakery .h1 {
+.categories h3, .categories .h3 {
   color: black;
+  font-family: "playb";
+}
+
+.categories h5, .categories .h5 {
+  color: black;
+  font-family: "playb";
 }
 
 .row {
