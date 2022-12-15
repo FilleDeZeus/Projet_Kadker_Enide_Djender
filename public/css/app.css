@@ -22134,10 +22134,8 @@ textarea.form-control-lg {
   width: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
+  justify-content: center;
   font-family: "play";
   text-align: start;
 }
@@ -22218,7 +22216,7 @@ textarea.form-control-lg {
 
 .our h1, .our .h1 {
   color: black;
-  font-family: "";
+  font-family: "playb";
 }
 
 .container33 {
@@ -44363,10 +44361,8 @@ textarea.form-control-lg {
   width: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
+  justify-content: center;
   font-family: "play";
   text-align: start;
 }
