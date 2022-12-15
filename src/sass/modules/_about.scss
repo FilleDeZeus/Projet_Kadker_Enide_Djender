@@ -5,6 +5,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+
 .about{
     width: 80%;
     display: flex;
@@ -16,10 +17,12 @@ main{
     font-family: 'play';
     text-align: start;
 }
+
 .about h6{
     color: $orange;
     margin-bottom: 10px;
 }
+
 .images::before {
     position: absolute;
     content: "";
@@ -32,9 +35,11 @@ main{
     border-radius: 0.3rem;
     z-index: -1;
 }
+
 .about .row{
     line-height: 2rem;
 }
+
 .about i{
     color: $orange;
     margin-right: 10px;
@@ -51,9 +56,11 @@ main{
 .about img{
     border-radius: 0.3rem;
 }
+
 .about h1{
     font-family: 'playb';
 }
+
 .abouttext{
     margin-left: 50px;
 }
