@@ -22244,6 +22244,7 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .entete {
@@ -22252,6 +22253,7 @@ textarea.form-control-lg {
   border-radius: 0.3rem;
   padding: 25px;
   margin: 0px 40px;
+  width: 100%;
 }
 
 .bakery {
@@ -44595,6 +44597,7 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .entete {
@@ -44603,6 +44606,7 @@ textarea.form-control-lg {
   border-radius: 0.3rem;
   padding: 25px;
   margin: 0px 40px;
+  width: 100%;
 }
 
 .bakery {
