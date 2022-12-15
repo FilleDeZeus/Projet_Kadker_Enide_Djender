@@ -22148,6 +22148,7 @@ textarea.form-control-lg {
 
 .service .row {
   line-height: 2rem;
+  position: relative;
 }
 
 .service i {
@@ -22162,22 +22163,28 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 15px;
 }
 
 .service h1, .service .h1 {
   font-family: "playb";
 }
 
-.about img {
+.service img {
   border-radius: 0.3rem;
 }
 
-.service h1, .service .h1 {
-  font-family: "playb";
-}
-
-.abouttext {
-  margin-left: 50px;
+.images2::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: hsl(37deg, 81%, 56%);
+  border: 25px solid hsl(33deg, 82%, 96%);
+  border-radius: 0.3rem;
+  z-index: -1;
 }
 
 main {
@@ -44338,6 +44345,7 @@ textarea.form-control-lg {
 
 .service .row {
   line-height: 2rem;
+  position: relative;
 }
 
 .service i {
@@ -44352,22 +44360,28 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 15px;
 }
 
 .service h1, .service .h1 {
   font-family: "playb";
 }
 
-.about img {
+.service img {
   border-radius: 0.3rem;
 }
 
-.service h1, .service .h1 {
-  font-family: "playb";
-}
-
-.abouttext {
-  margin-left: 50px;
+.images2::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: hsl(37deg, 81%, 56%);
+  border: 25px solid hsl(33deg, 82%, 96%);
+  border-radius: 0.3rem;
+  z-index: -1;
 }
 
 main {
