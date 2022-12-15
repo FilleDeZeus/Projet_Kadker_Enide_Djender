@@ -22343,6 +22343,75 @@ textarea.form-control-lg {
   margin-top: 20px;
 }
 
+.service {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  font-family: "play";
+  text-align: start;
+}
+
+.service h6, .service .h6 {
+  color: hsl(37deg, 81%, 56%);
+  margin-bottom: 10px;
+}
+
+.service .row {
+  line-height: 2rem;
+  position: relative;
+}
+
+.service i {
+  color: white;
+}
+
+.serviceicon {
+  background-color: hsl(37deg, 81%, 56%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
+.service img {
+  border-radius: 0.3rem;
+}
+
+.images2::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: hsl(37deg, 81%, 56%);
+  border: 25px solid hsl(33deg, 82%, 96%);
+  border-radius: 0.3rem;
+  z-index: -1;
+}
+
+.images2 {
+  position: relative !important;
+  height: 100% !important;
+}
+
+.servicetext {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -44694,6 +44763,75 @@ textarea.form-control-lg {
   padding: 15px 25px 15px 25px;
   font-family: "playb";
   margin-top: 20px;
+}
+
+.service {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  font-family: "play";
+  text-align: start;
+}
+
+.service h6, .service .h6 {
+  color: hsl(37deg, 81%, 56%);
+  margin-bottom: 10px;
+}
+
+.service .row {
+  line-height: 2rem;
+  position: relative;
+}
+
+.service i {
+  color: white;
+}
+
+.serviceicon {
+  background-color: hsl(37deg, 81%, 56%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.service h1, .service .h1 {
+  font-family: "playb";
+}
+
+.service img {
+  border-radius: 0.3rem;
+}
+
+.images2::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: hsl(37deg, 81%, 56%);
+  border: 25px solid hsl(33deg, 82%, 96%);
+  border-radius: 0.3rem;
+  z-index: -1;
+}
+
+.images2 {
+  position: relative !important;
+  height: 100% !important;
+}
+
+.servicetext {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 main {
