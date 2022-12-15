@@ -22284,6 +22284,11 @@ textarea.form-control-lg {
   line-height: 1.2;
 }
 
+.bakery p {
+  color: hsl(37deg, 81%, 56%);
+  line-height: 1.2;
+}
+
 .tel {
   display: inline-flex;
   text-align: start;
@@ -22475,6 +22480,104 @@ textarea.form-control-lg {
 
 .servicetext {
   margin-right: 50px;
+}
+
+.team {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  font-family: "play";
+  text-align: start;
+}
+
+.team-card {
+  text-align: center;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.team-card .team-text {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+.team-card .team-titre {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsl(33deg, 82%, 96%);
+}
+
+.team-card:hover .team-titre {
+  top: -100px;
+}
+
+.team-card .team-social {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(37deg, 81%, 56%);
+  transition: 0.5s;
+}
+
+.team-card .team-social .btn {
+  margin: 0 3px;
+}
+
+.team-card:hover .team-social {
+  top: 0;
+}
+
+.team .btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.row {
+  align-items: center;
+}
+
+.our {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5% 0%;
+  width: 40%;
+}
+
+.our h5, .our .h5 {
+  color: hsl(37deg, 81%, 56%);
+}
+
+.our h1, .our .h1 {
+  color: black;
+  font-family: "playb";
+}
+
+.container33 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -44771,6 +44874,11 @@ textarea.form-control-lg {
   line-height: 1.2;
 }
 
+.bakery p {
+  color: hsl(37deg, 81%, 56%);
+  line-height: 1.2;
+}
+
 .tel {
   display: inline-flex;
   text-align: start;
@@ -44962,6 +45070,104 @@ textarea.form-control-lg {
 
 .servicetext {
   margin-right: 50px;
+}
+
+.team {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  font-family: "play";
+  text-align: start;
+}
+
+.team-card {
+  text-align: center;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.team-card .team-text {
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+}
+
+.team-card .team-titre {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsl(33deg, 82%, 96%);
+}
+
+.team-card:hover .team-titre {
+  top: -100px;
+}
+
+.team-card .team-social {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(37deg, 81%, 56%);
+  transition: 0.5s;
+}
+
+.team-card .team-social .btn {
+  margin: 0 3px;
+}
+
+.team-card:hover .team-social {
+  top: 0;
+}
+
+.team .btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.row {
+  align-items: center;
+}
+
+.our {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5% 0%;
+  width: 40%;
+}
+
+.our h5, .our .h5 {
+  color: hsl(37deg, 81%, 56%);
+}
+
+.our h1, .our .h1 {
+  color: black;
+  font-family: "playb";
+}
+
+.container33 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
