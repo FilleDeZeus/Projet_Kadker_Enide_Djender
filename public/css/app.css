@@ -22266,7 +22266,7 @@ textarea.form-control-lg {
   width: 40%;
 }
 
-.bakery p {
+.bakery h5, .bakery .h5 {
   color: hsl(37deg, 81%, 56%);
 }
 
@@ -44686,7 +44686,7 @@ textarea.form-control-lg {
   width: 40%;
 }
 
-.bakery p {
+.bakery h5, .bakery .h5 {
   color: hsl(37deg, 81%, 56%);
 }
 
