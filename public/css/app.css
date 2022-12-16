@@ -22130,37 +22130,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.quotas {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: "play";
-  text-align: center;
-  width: 80%;
-}
-
-.quota {
-  background-color: hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  height: 100%;
-  padding: 5%;
-}
-
-.quota:hover {
-  margin-top: -10px;
-  background: #FFFFFF !important;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
-}
-
-.quota i {
-  margin-bottom: 20px;
-  color: hsl(37deg, 81%, 56%);
-}
-
 .about {
   width: 80%;
   display: flex;
@@ -22343,71 +22312,84 @@ textarea.form-control-lg {
   margin-top: 20px;
 }
 
-.service {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  margin-top: 5%;
-  font-family: "play";
-  text-align: start;
-}
-
-.service h6, .service .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
-}
-
-.service .row {
-  line-height: 2rem;
-}
-
-.service i {
+.footer {
+  background-color: rgb(34, 30, 30);
   color: white;
 }
 
-.serviceicon {
-  background-color: hsl(37deg, 81%, 56%);
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: hsl(33deg, 82%, 96%);
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.footer .btn.btn-link:hover {
+  color: hsl(37deg, 81%, 56%);
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer h4, .footer .h4 {
+  color: white;
+}
+
+.footer a {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  margin-right: 4px;
+}
+
+.footer img {
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 5px;
+}
+
+.copyright {
+  background: #111111;
+}
+
+.copyright a {
+  color: hsl(37deg, 81%, 56%);
+}
+
+.copyright a:hover {
+  color: hsl(33deg, 82%, 96%);
+}
+
+.quotas {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex-wrap: inherit;
   align-items: center;
-  margin-right: 15px;
-  margin-bottom: 0px;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "play";
+  text-align: center;
+  width: 80%;
 }
 
-.service h1, .service .h1 {
-  font-family: "playb";
-}
-
-.service img {
+.quota {
+  background-color: hsl(33deg, 82%, 96%);
   border-radius: 0.3rem;
-}
-
-.images2::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
-}
-
-.images2 {
-  position: relative;
   height: 100%;
+  padding: 5%;
 }
 
-.servicetext {
-  margin-right: 50px;
+.quota:hover {
+  margin-top: -10px;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+
+.quota i {
+  margin-bottom: 20px;
+  color: hsl(37deg, 81%, 56%);
 }
 
 .service {
@@ -44715,37 +44697,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.quotas {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: "play";
-  text-align: center;
-  width: 80%;
-}
-
-.quota {
-  background-color: hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  height: 100%;
-  padding: 5%;
-}
-
-.quota:hover {
-  margin-top: -10px;
-  background: #FFFFFF !important;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
-}
-
-.quota i {
-  margin-bottom: 20px;
-  color: hsl(37deg, 81%, 56%);
-}
-
 .about {
   width: 80%;
   display: flex;
@@ -44790,7 +44741,7 @@ textarea.form-control-lg {
   margin-right: 10px;
 }
 
-.btn {
+.about .btn {
   background-color: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 50rem;
@@ -44928,71 +44879,84 @@ textarea.form-control-lg {
   margin-top: 20px;
 }
 
-.service {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  margin-top: 5%;
-  font-family: "play";
-  text-align: start;
-}
-
-.service h6, .service .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
-}
-
-.service .row {
-  line-height: 2rem;
-}
-
-.service i {
+.footer {
+  background-color: rgb(34, 30, 30);
   color: white;
 }
 
-.serviceicon {
-  background-color: hsl(37deg, 81%, 56%);
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: hsl(33deg, 82%, 96%);
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.footer .btn.btn-link:hover {
+  color: hsl(37deg, 81%, 56%);
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer h4, .footer .h4 {
+  color: white;
+}
+
+.footer a {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  margin-right: 4px;
+}
+
+.footer img {
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 5px;
+}
+
+.copyright {
+  background: #111111;
+}
+
+.copyright a {
+  color: hsl(37deg, 81%, 56%);
+}
+
+.copyright a:hover {
+  color: hsl(33deg, 82%, 96%);
+}
+
+.quotas {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex-wrap: inherit;
   align-items: center;
-  margin-right: 15px;
-  margin-bottom: 0px;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "play";
+  text-align: center;
+  width: 80%;
 }
 
-.service h1, .service .h1 {
-  font-family: "playb";
-}
-
-.service img {
+.quota {
+  background-color: hsl(33deg, 82%, 96%);
   border-radius: 0.3rem;
-}
-
-.images2::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
-}
-
-.images2 {
-  position: relative;
   height: 100%;
+  padding: 5%;
 }
 
-.servicetext {
-  margin-right: 50px;
+.quota:hover {
+  margin-top: -10px;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+
+.quota i {
+  margin-bottom: 20px;
+  color: hsl(37deg, 81%, 56%);
 }
 
 .service {
