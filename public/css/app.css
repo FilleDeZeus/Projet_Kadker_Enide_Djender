@@ -22573,10 +22573,12 @@ textarea.form-control-lg {
 
 nav {
   background-color: hsl(23deg, 15%, 10%);
+  font-family: "play";
 }
 
 nav h1, nav .h1 {
   color: hsl(37deg, 81%, 56%);
+  font-family: "playb";
 }
 
 nav i {
@@ -22584,6 +22586,7 @@ nav i {
 }
 
 .header h1, .header .h1 {
+  font-family: "playb";
   color: hsl(33deg, 82%, 96%);
   font-weight: 300;
   font-size: 4rem;
@@ -22591,8 +22594,9 @@ nav i {
 }
 
 .header p {
+  font-family: "play";
   color: hsl(33deg, 82%, 96%);
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .call {
@@ -45227,10 +45231,12 @@ textarea.form-control-lg {
 
 nav {
   background-color: hsl(23deg, 15%, 10%);
+  font-family: "play";
 }
 
 nav h1, nav .h1 {
   color: hsl(37deg, 81%, 56%);
+  font-family: "playb";
 }
 
 nav i {
@@ -45238,6 +45244,7 @@ nav i {
 }
 
 .header h1, .header .h1 {
+  font-family: "playb";
   color: hsl(33deg, 82%, 96%);
   font-weight: 300;
   font-size: 4rem;
@@ -45245,8 +45252,9 @@ nav i {
 }
 
 .header p {
+  font-family: "play";
   color: hsl(33deg, 82%, 96%);
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .call {

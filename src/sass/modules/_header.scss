@@ -12,14 +12,18 @@
 }
 nav{
     background-color: $noir;
+    font-family: 'play';
 }
+
 nav h1{
     color:$orange ;
+    font-family: 'playb';
 }
 nav i{
     color: $orange;
 }
 .header h1{
+    font-family: 'playb';
     color: $orangec;
     font-weight: 300;
     font-size: 4rem;
@@ -27,8 +31,9 @@ nav i{
 }
 
 .header p{
+    font-family: 'play';
     color: $orangec;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .call{
     display: flex;
