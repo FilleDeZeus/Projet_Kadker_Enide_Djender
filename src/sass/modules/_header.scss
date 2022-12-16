@@ -1,0 +1,78 @@
+.header .btn  {
+    background-color: $orange;
+    color: white;
+    border-radius: 50rem;
+    padding: 15px 25px 15px 25px;
+    font-family: 'playb';
+    margin-top: 20px;
+}
+.header p:first-child{
+    color: $orange;
+    font-weight: 500;
+}
+nav{
+    background-color: $noir;
+}
+nav h1{
+    color:$orange ;
+}
+nav i{
+    color: $orange;
+}
+.header h1{
+    color: $orangec;
+    font-weight: 300;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.header p{
+    color: $orangec;
+    font-size: 2rem;
+}
+.call{
+    display: flex;
+}
+.phone{
+    flex-shrink: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    width: 50px;
+    height: 50px;
+    border: 1px solid $orangec;
+    border-radius: 50%;
+}
+.phone i{
+    color: $orange;
+}
+.call small{
+    color: $orange;
+}
+.call p{
+    color: $orangec;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: $orangec;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.Home {
+    color: $orange;
+}
+
+
+.header .carroussel2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+}
+
