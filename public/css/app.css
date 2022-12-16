@@ -22156,7 +22156,18 @@ textarea.form-control-lg {
   color: white;
 }
 
-.footer .btb .copyright {
+.footer a {
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.footer img {
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 5px;
+}
+
+.copyright {
   background: #111111;
 }
 
@@ -44334,7 +44345,18 @@ textarea.form-control-lg {
   color: white;
 }
 
-.footer .btb .copyright {
+.footer a {
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.footer img {
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 5px;
+}
+
+.copyright {
   background: #111111;
 }
 
