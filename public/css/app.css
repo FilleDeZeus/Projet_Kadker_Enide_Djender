@@ -22130,103 +22130,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.quotas {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: "play";
-  text-align: center;
-  width: 80%;
-}
-
-.quota {
-  background-color: hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  height: 100%;
-  padding: 5%;
-}
-
-.quota:hover {
-  margin-top: -10px;
-  background: #FFFFFF !important;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
-}
-
-.quota i {
-  margin-bottom: 20px;
-  color: hsl(37deg, 81%, 56%);
-}
-
-.about {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  font-family: "play";
-  text-align: start;
-}
-
-.about h6, .about .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
-}
-
-.images {
-  position: relative;
-  height: 100%;
-}
-
-.images::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
-}
-
-.about .row {
-  line-height: 2rem;
-}
-
-.about i {
-  color: hsl(37deg, 81%, 56%);
-  margin-right: 10px;
-}
-
-.about .btn {
-  background-color: hsl(37deg, 81%, 56%);
-  color: white;
-  border-radius: 50rem;
-  padding: 15px 25px 15px 25px;
-  font-family: "playb";
-  margin-top: 20px;
-}
-
-.about img {
-  border-radius: 0.3rem;
-}
-
-.about h1, .about .h1 {
-  font-family: "playb";
-}
-
-.abouttext {
-  margin-left: 50px;
-}
-
-.categories {
+.client {
   background-color: hsl(33deg, 82%, 96%);
   width: 80%;
   display: flex;
@@ -22239,7 +22143,7 @@ textarea.form-control-lg {
   font-family: "play";
 }
 
-.container2 {
+.container44 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22247,7 +22151,7 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.entete {
+.enbas {
   background: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 0.3rem;
@@ -22256,329 +22160,138 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.bakery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 5% 0%;
-  width: 40%;
-}
-
-.bakery h5, .bakery .h5 {
-  color: hsl(37deg, 81%, 56%);
-}
-
-.bakery h1, .bakery .h1 {
-  color: black;
-}
-
-.categorie .row {
+.enbas .row {
   align-items: center;
 }
 
-.entete h1, .entete .h1 {
-  color: white;
-  font-family: "playb";
-  line-height: 1.2;
+.card {
+  margin: 0 auto;
+  border: none;
 }
 
-.tel {
-  display: inline-flex;
-  text-align: start;
-  align-items: center;
+.card .carousel-item {
+  min-height: 190px;
 }
 
-.numero {
-  margin-left: 20px;
+.card .carousel-caption {
+  padding: 0;
+  right: 15px;
+  left: 15px;
+  top: 15px;
+  color: #3d3d3d;
+  border: 1px solid #ccc;
+  min-height: 175px;
+  padding: 15px;
 }
 
-.produits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  border-radius: 0.3rem;
-}
-
-.produittext {
-  text-align: center;
-  padding: 25px;
-}
-
-.prixproduit {
-  display: inline-block;
-  border: 1px hsl(37deg, 81%, 56%) solid;
-  border-radius: 50rem;
-  padding: 0px 15px 0px 15px;
-  margin-bottom: 20px;
-}
-
-.produits .produit {
-  position: absolute;
-  width: 100%;
-  height: 0;
-  top: 0;
-  left: 0;
+.card .carousel-caption .col-sm-3 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.5s;
 }
 
-.produits:hover .produit {
-  height: 100%;
-  opacity: 1;
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
 }
 
-.produit .btn {
-  color: white;
-  border-radius: 50rem;
-  padding: 15px 25px 15px 25px;
-  font-family: "playb";
-  margin-top: 20px;
+.card .carousel-control-prev, .card .carousel-control-next {
+  color: #3d3d3d !important;
+  opacity: 1 !important;
 }
 
-.produit i {
-  color: hsl(37deg, 81%, 56%);
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+  color: #fff;
+  font-size: 14px;
+  background-color: #cd3a54;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
 }
 
-.service {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  margin-top: 5%;
-  font-family: "play";
-  text-align: start;
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  opacity: 0.85;
 }
 
-.service h6, .service .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
+.carousel-control-prev {
+  left: 40%;
+  top: 110%;
 }
 
-.service .row {
-  line-height: 2rem;
+.carousel-control-next {
+  right: 40%;
+  top: 110%;
 }
 
-.service i {
-  color: white;
+.midline {
+  width: 60px;
+  border-top: 1px solid #d43025;
 }
 
-.serviceicon {
-  background-color: hsl(37deg, 81%, 56%);
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-  margin-bottom: 0px;
+.carousel-caption h2, .carousel-caption .h2 {
+  font-size: 14px;
 }
 
-.service h1, .service .h1 {
-  font-family: "playb";
+.carousel-caption h2 span, .carousel-caption .h2 span {
+  color: #cd3a54;
 }
 
-.service img {
-  border-radius: 0.3rem;
+@media (min-width: 320px) and (max-width: 575px) {
+  .carousel-caption {
+    position: relative;
+  }
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+    margin-bottom: 15px;
+  }
+  .card .carousel-caption img {
+    margin: 0 auto;
+  }
+  .carousel-control-prev {
+    left: 35%;
+    top: 105%;
+  }
+  .carousel-control-next {
+    right: 35%;
+    top: 105%;
+  }
+  .card .carousel-caption h3, .card .carousel-caption .h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
-
-.images2::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-caption {
+    position: relative;
+  }
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+    margin-bottom: 15px;
+  }
+  .card .carousel-caption img {
+    margin: 0 auto;
+  }
+  .card .carousel-caption h3, .card .carousel-caption .h3, .card .carousel-caption small, .card .carousel-caption .small {
+    text-align: center;
+  }
+  .carousel-control-prev {
+    left: 35%;
+    top: 105%;
+  }
+  .carousel-control-next {
+    right: 35%;
+    top: 105%;
+  }
 }
-
-.images2 {
-  position: relative;
-  height: 100%;
+@media (min-width: 767px) and (max-width: 991px) {
+  .card .carousel-caption h3, .card .carousel-caption .h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
-
-.servicetext {
-  margin-right: 50px;
-}
-
-.service {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  margin-top: 5%;
-  font-family: "play";
-  text-align: start;
-}
-
-.service h6, .service .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
-}
-
-.service .row {
-  line-height: 2rem;
-}
-
-.service i {
-  color: white;
-}
-
-.serviceicon {
-  background-color: hsl(37deg, 81%, 56%);
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-  margin-bottom: 0px;
-}
-
-.service h1, .service .h1 {
-  font-family: "playb";
-}
-
-.service img {
-  border-radius: 0.3rem;
-}
-
-.images2::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
-}
-
-.images2 {
-  position: relative;
-  height: 100%;
-}
-
-.servicetext {
-  margin-right: 50px;
-}
-
-.team {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 0px;
-  font-family: "play";
-  text-align: start;
-}
-
-.team-card {
-  text-align: center;
-  border-radius: 0.3rem;
-  overflow: hidden;
-}
-
-.team-card .team-text {
-  position: relative;
-  height: 100px;
-  overflow: hidden;
-}
-
-.team-card .team-titre {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: hsl(33deg, 82%, 96%);
-}
-
-.team-card:hover .team-titre {
-  top: -100px;
-}
-
-.team-card .team-social {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 100px;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: hsl(37deg, 81%, 56%);
-  transition: 0.5s;
-}
-
-.team-card .team-social .btn {
-  margin: 0 3px;
-}
-
-.team-card:hover .team-social {
-  top: 0;
-}
-
-.team .btn {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-
-.row {
-  align-items: center;
-}
-
-.our {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 5% 0%;
-  width: 40%;
-}
-
-.our h5, .our .h5 {
-  color: hsl(37deg, 81%, 56%);
-}
-
-.our h1, .our .h1 {
-  color: black;
-  font-family: "playb";
-}
-
-.container33 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 main {
   width: 100%;
   display: flex;
@@ -44719,103 +44432,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.quotas {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: "play";
-  text-align: center;
-  width: 80%;
-}
-
-.quota {
-  background-color: hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  height: 100%;
-  padding: 5%;
-}
-
-.quota:hover {
-  margin-top: -10px;
-  background: #FFFFFF !important;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
-}
-
-.quota i {
-  margin-bottom: 20px;
-  color: hsl(37deg, 81%, 56%);
-}
-
-.about {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  font-family: "play";
-  text-align: start;
-}
-
-.about h6, .about .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
-}
-
-.images {
-  position: relative;
-  height: 100%;
-}
-
-.images::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
-}
-
-.about .row {
-  line-height: 2rem;
-}
-
-.about i {
-  color: hsl(37deg, 81%, 56%);
-  margin-right: 10px;
-}
-
-.about .btn {
-  background-color: hsl(37deg, 81%, 56%);
-  color: white;
-  border-radius: 50rem;
-  padding: 15px 25px 15px 25px;
-  font-family: "playb";
-  margin-top: 20px;
-}
-
-.about img {
-  border-radius: 0.3rem;
-}
-
-.about h1, .about .h1 {
-  font-family: "playb";
-}
-
-.abouttext {
-  margin-left: 50px;
-}
-
-.categories {
+.client {
   background-color: hsl(33deg, 82%, 96%);
   width: 80%;
   display: flex;
@@ -44828,7 +44445,7 @@ textarea.form-control-lg {
   font-family: "play";
 }
 
-.container2 {
+.container44 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44836,7 +44453,7 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.entete {
+.enbas {
   background: hsl(37deg, 81%, 56%);
   color: white;
   border-radius: 0.3rem;
@@ -44845,329 +44462,138 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.bakery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 5% 0%;
-  width: 40%;
-}
-
-.bakery h5, .bakery .h5 {
-  color: hsl(37deg, 81%, 56%);
-}
-
-.bakery h1, .bakery .h1 {
-  color: black;
-}
-
-.categorie .row {
+.enbas .row {
   align-items: center;
 }
 
-.entete h1, .entete .h1 {
-  color: white;
-  font-family: "playb";
-  line-height: 1.2;
+.card {
+  margin: 0 auto;
+  border: none;
 }
 
-.tel {
-  display: inline-flex;
-  text-align: start;
-  align-items: center;
+.card .carousel-item {
+  min-height: 190px;
 }
 
-.numero {
-  margin-left: 20px;
+.card .carousel-caption {
+  padding: 0;
+  right: 15px;
+  left: 15px;
+  top: 15px;
+  color: #3d3d3d;
+  border: 1px solid #ccc;
+  min-height: 175px;
+  padding: 15px;
 }
 
-.produits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  border-radius: 0.3rem;
-}
-
-.produittext {
-  text-align: center;
-  padding: 25px;
-}
-
-.prixproduit {
-  display: inline-block;
-  border: 1px hsl(37deg, 81%, 56%) solid;
-  border-radius: 50rem;
-  padding: 0px 15px 0px 15px;
-  margin-bottom: 20px;
-}
-
-.produits .produit {
-  position: absolute;
-  width: 100%;
-  height: 0;
-  top: 0;
-  left: 0;
+.card .carousel-caption .col-sm-3 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.5s;
 }
 
-.produits:hover .produit {
-  height: 100%;
-  opacity: 1;
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
 }
 
-.produit .btn {
-  color: white;
-  border-radius: 50rem;
-  padding: 15px 25px 15px 25px;
-  font-family: "playb";
-  margin-top: 20px;
+.card .carousel-control-prev, .card .carousel-control-next {
+  color: #3d3d3d !important;
+  opacity: 1 !important;
 }
 
-.produit i {
-  color: hsl(37deg, 81%, 56%);
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+  color: #fff;
+  font-size: 14px;
+  background-color: #cd3a54;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
 }
 
-.service {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  margin-top: 5%;
-  font-family: "play";
-  text-align: start;
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  opacity: 0.85;
 }
 
-.service h6, .service .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
+.carousel-control-prev {
+  left: 40%;
+  top: 110%;
 }
 
-.service .row {
-  line-height: 2rem;
+.carousel-control-next {
+  right: 40%;
+  top: 110%;
 }
 
-.service i {
-  color: white;
+.midline {
+  width: 60px;
+  border-top: 1px solid #d43025;
 }
 
-.serviceicon {
-  background-color: hsl(37deg, 81%, 56%);
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-  margin-bottom: 0px;
+.carousel-caption h2, .carousel-caption .h2 {
+  font-size: 14px;
 }
 
-.service h1, .service .h1 {
-  font-family: "playb";
+.carousel-caption h2 span, .carousel-caption .h2 span {
+  color: #cd3a54;
 }
 
-.service img {
-  border-radius: 0.3rem;
+@media (min-width: 320px) and (max-width: 575px) {
+  .carousel-caption {
+    position: relative;
+  }
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+    margin-bottom: 15px;
+  }
+  .card .carousel-caption img {
+    margin: 0 auto;
+  }
+  .carousel-control-prev {
+    left: 35%;
+    top: 105%;
+  }
+  .carousel-control-next {
+    right: 35%;
+    top: 105%;
+  }
+  .card .carousel-caption h3, .card .carousel-caption .h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
-
-.images2::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-caption {
+    position: relative;
+  }
+  .card .carousel-caption {
+    left: 0;
+    top: 0;
+    margin-bottom: 15px;
+  }
+  .card .carousel-caption img {
+    margin: 0 auto;
+  }
+  .card .carousel-caption h3, .card .carousel-caption .h3, .card .carousel-caption small, .card .carousel-caption .small {
+    text-align: center;
+  }
+  .carousel-control-prev {
+    left: 35%;
+    top: 105%;
+  }
+  .carousel-control-next {
+    right: 35%;
+    top: 105%;
+  }
 }
-
-.images2 {
-  position: relative;
-  height: 100%;
+@media (min-width: 767px) and (max-width: 991px) {
+  .card .carousel-caption h3, .card .carousel-caption .h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
-
-.servicetext {
-  margin-right: 50px;
-}
-
-.service {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0px;
-  margin-top: 5%;
-  font-family: "play";
-  text-align: start;
-}
-
-.service h6, .service .h6 {
-  color: hsl(37deg, 81%, 56%);
-  margin-bottom: 10px;
-}
-
-.service .row {
-  line-height: 2rem;
-}
-
-.service i {
-  color: white;
-}
-
-.serviceicon {
-  background-color: hsl(37deg, 81%, 56%);
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-  margin-bottom: 0px;
-}
-
-.service h1, .service .h1 {
-  font-family: "playb";
-}
-
-.service img {
-  border-radius: 0.3rem;
-}
-
-.images2::before {
-  position: absolute;
-  content: "";
-  width: 60%;
-  height: 80%;
-  top: 10%;
-  left: 20%;
-  background: hsl(37deg, 81%, 56%);
-  border: 25px solid hsl(33deg, 82%, 96%);
-  border-radius: 0.3rem;
-  z-index: -1;
-}
-
-.images2 {
-  position: relative;
-  height: 100%;
-}
-
-.servicetext {
-  margin-right: 50px;
-}
-
-.team {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 0px;
-  font-family: "play";
-  text-align: start;
-}
-
-.team-card {
-  text-align: center;
-  border-radius: 0.3rem;
-  overflow: hidden;
-}
-
-.team-card .team-text {
-  position: relative;
-  height: 100px;
-  overflow: hidden;
-}
-
-.team-card .team-titre {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: hsl(33deg, 82%, 96%);
-}
-
-.team-card:hover .team-titre {
-  top: -100px;
-}
-
-.team-card .team-social {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 100px;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: hsl(37deg, 81%, 56%);
-  transition: 0.5s;
-}
-
-.team-card .team-social .btn {
-  margin: 0 3px;
-}
-
-.team-card:hover .team-social {
-  top: 0;
-}
-
-.team .btn {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-
-.row {
-  align-items: center;
-}
-
-.our {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 5% 0%;
-  width: 40%;
-}
-
-.our h5, .our .h5 {
-  color: hsl(37deg, 81%, 56%);
-}
-
-.our h1, .our .h1 {
-  color: black;
-  font-family: "playb";
-}
-
-.container33 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 main {
   width: 100%;
   display: flex;
