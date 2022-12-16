@@ -1,5 +1,48 @@
 .pageheader {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: $gris;
     background-size: cover;
+}
+.contact{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    font-family: 'play';
+    text-align: start;
+}
+
+.us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% 0%;
+    width: 40%;
+}
+.us h5{
+    color: $orange;
+}
+.us h1{
+    color: black;
+    font-family: 'playb';
+}
+.container66{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact .btn{
+    background-color: $orange;
+    color: $orangec;
+    border-radius: 50rem;
+}
+.contact a{
+    color: $orange;
+    text-decoration: none;
 }
