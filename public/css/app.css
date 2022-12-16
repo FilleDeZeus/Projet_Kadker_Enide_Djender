@@ -21956,10 +21956,11 @@ textarea.form-control-lg {
 }
 .header .btn {
   background-color: hsl(37deg, 81%, 56%);
-  font-weight: 500;
-  color: #FFFFFF;
-  border-radius: 50%;
-  padding: 25px 15px 25px 15px;
+  color: white;
+  border-radius: 50rem;
+  padding: 15px 25px 15px 25px;
+  font-family: "playb";
+  margin-top: 20px;
 }
 
 .header p:first-child {
