@@ -18,11 +18,11 @@
         <a href="#" class="navbar-brand ms-4 ms-lg-0">
             <h1>MOLENGEEK</h1>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4 btn-sm" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto p-4 p-lg-0">
+        <div class=" list collapse navbar-collapse" id="navbarCollapse">
+            <div class=" navbar-nav mx-auto p-4 p-lg-0">
                 <a href="#" class="nav-item nav-link Home">Home</a>
                 <a href="#" class="nav-item nav-link">About</a>
                 <a href="#" class="nav-item nav-link">Services</a>
@@ -50,39 +50,49 @@
     </nav>
     <!-- ----------------HEADER------------ -->
     <header>
-    <div class="container-fluid p-0 pb-5 ">
-        <div class="header position-relative">
-            <div class="carroussel position-relative">
-                <img class="img-fluid" src="./public/images/carousel-1.jpg" >
-                <div class="carroussel2">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-lg-8">
-                                <p>// THE BEST BAKERY</p>
-                                <h1>We Bake With Passion</h1>
-                                <p>Vero elitr justo clita lorem. Ipsum dolor sed stet sit diam rebum ipsum.</p>
-                                <a href="" class="btn py-3 px-5">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+        <div id="carouselExampleFade" class="carousel slide w-100 mx-auto mb-3 carousel-fade "
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active fond">
+                <div class="texteheader">
+                    <h6>//THE BEST BAKERY</h6>
+                    <h1> We Cake With Passion</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit verro justo
+                        kadrix citam eternam vivae</p>
+                    <button type="button" class="btn bg-orange btn-lg rounded-5 text-white">Read More</button>
                 </div>
             </div>
-            <!-- <div class="carroussel position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                <div class="carroussel2">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-lg-8">
-                                <p>// The Best Bakery</p>
-                                <h1>We Bake With Passiong</h1>
-                                <p>Vero elitr justo clita lorem. Ipsum dolor sed stet sit diam rebum ipsum.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="carousel-item fond2">
+                <div class="texteheader">
+                    <h6>//THE BEST BAKERY</h6>
+                    <h1> We Cake With Passion</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit verro justo
+                        kadrix citam eternam vivae </p>
+                    <button type="button" class="btn bg-orange btn-lg rounded-5 text-white">Read More</button>
                 </div>
-            </div> -->
+            </div>
+            <div class="carousel-item fond">
+                <div class="texteheader">
+                    <h6>//THE BEST BAKERY</h6>
+                    <h1> We Cake With Passion</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit verro justo
+                        kadrix citam eternam vivae </p>
+                    <button type="button" class="btn bg-orange btn-lg rounded-5 text-white">Read More
+                    </button>
+                </div>
+
+            </div>
         </div>
+        <button class="carousel-control-prev" style="height: 55px; width: 55px; margin-top:20%; " type="button"
+            data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " style="height: 55px; width: 55px; margin-top:20%;" type="button"
+            data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
         </header>
 
@@ -269,7 +279,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="./public/images/product-1.jpg" alt="">
                             <div class="produit">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-orange"></i></a>
                             </div>
                         </div>
                     </div>
@@ -442,6 +452,7 @@
             </div>
         </div>
     </section>
+    <!-- -------------------FOOTER-------------- -->
     <footer class=" footer container-fluid">
         <div class="container py-5">
             <div class="row g-5">
