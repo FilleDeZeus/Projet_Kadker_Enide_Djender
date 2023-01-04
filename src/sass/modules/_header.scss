@@ -8,48 +8,59 @@ nav h1{
     color:$orange ;
     font-family: 'playb';
 }
-@media screen and (max-width: 330px) {
-    nav h1{
-        margin-top: 30%;
-        font-size: 0.5rem;
-        margin-left: 30%;
-    }
-}
-@media screen and (max-width: 380px) {
-    a h1{
-        margin-top: 30%;
-        margin-left: 30%;
-    }
-}
-@media screen and (max-width: 430px) {
-    a h1{
-        margin-top: 30%;
-        margin-left: 20%;
-        font-size: 1rem;
-    }
-    .list{
-        margin: 10%;
-    }
+// @media screen and (max-width: 330px) {
+//     .navbar h1{
+//         margin-top: 30%;
+//         font-size: 0.5rem;
+//         margin-left: 30%;
+//     }
+// }
+// @media screen and (max-width: 380px) {
+//     .navbar-brand{
+//         margin-top: 30%;
+//         margin-left: 30%;
+//         font-size: 0.5rem;
+//     }
+// }
+// @media screen and (max-width: 430px) {
+//     .navbar h1{
+//         margin-top: 30%;
+//         margin-left: 20%;
+//         font-size: 1rem;
+//     }
+//     .list{
+//         margin: 10%;
+//     }
 
-}
+// }
 @media screen and (max-width: 770px) {
-    nav h1{
-        margin-top: 20%;
-        margin-left: 20%;
-        font-size: 3rem;
-    }
-    nav a{
-        margin-top: -8%;
-    }
     .list{
         display: flex;
         flex-direction: row;
         margin: 10%;
-        font-size: 2rem;
+        font-size: 1rem;
+    }  
+    .texteheader h1{
+        font-size: 1.5rem;
     }
-    
-
+    .texteheader h6{
+        font-size: 1rem;
+    }
+    .texteheader p{
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+    header .btn {
+        padding: 7.5px 12.5px 7.5px 12.5px;
+    }
+    header{
+        height: 50vh;
+    }
+    .texteheader{
+        margin-top: -8%;
+    }
 }
+
 nav i{
     color: $orange;
 }
@@ -92,7 +103,7 @@ nav i{
 // HEADER-------------
 
 header {
-    margin-top: 90px;
+    margin-top: 50px;
 }
 header h1{
     font-family: 'playb';
@@ -101,6 +112,10 @@ header h1{
     font-size: 4rem;
     margin-bottom: 20px;
 }
+// @media screen and (max-width: 370px) {
+//     header h1{
+//     font-size: 1rem;
+//    }
 
 header p{
     font-family: 'play';
@@ -142,5 +157,6 @@ header .btn  {
     flex-direction: column;
     align-items: flex-start;
     padding: 2%;
-    margin-top: 14%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
